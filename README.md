@@ -10,7 +10,7 @@ wp_enqueue_script( 'jcarousel', get_template_directory_uri() . '/vendor/jcarouse
 wp_enqueue_script( 'jcarousel-responsive', get_template_directory_uri() . '/vendor/jcarousel/jquery.jcarousel-responsive.js', array('jquery'), '2.0', true );
 ```
 
-### Instantiate Class / call output method
+### Output Gallery
 
 ```php
 listing_image_gallery::output_gallery( $image_gallery );
